@@ -12,7 +12,7 @@ function(add_ctest_executable target_name)
 endfunction()
 
 ### Here is examples ###
-# add_test_executable(my_test1 my_test1.cpp)
-# add_ctest_executable(my_ctest2 my_ctest2.cpp)
+# add_test_executable(my_test1 my_test1.cpp my_test1a.cpp code.cpp)
+# add_ctest_executable(my_ctest2 my_ctest2.cpp my_test2a.cpp code.cpp)
 
 
