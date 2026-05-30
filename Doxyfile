@@ -4,11 +4,11 @@ PROJECT_BRIEF = "项目简要说明"
 
 # ==================== 源代码输入 ====================
 # 源代码目录（设置多个用空格分隔）
-INPUT                   = ./src ./include ./README.md
+INPUT                   = ./src ./include ./docs ./README.md
 # 递归搜索子目录
 RECURSIVE               = YES
 # 需要扫描的文件后缀（根据语言调整）
-FILE_PATTERNS           = *.cpp *c *.cc *.cxx *.h *.hpp *.hxx
+FILE_PATTERNS           = *.cpp *c *.cc *.cxx *.h *.hpp *.hxx *.md
 # 排除某些符号，例如 namespace::class, namespace::*Test, *::details
 EXCLUDE_SYMBOLS         = 
 # 使用某个 Markdown 文件作为首页
