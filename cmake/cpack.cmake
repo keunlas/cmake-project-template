@@ -1,3 +1,4 @@
+if(${PROJECT_NAME}_USE_CPACK)
 #
 # CPack 配置选项
 #
@@ -19,3 +20,4 @@ endif()
 
 # 引入 CPack 工具
 include(CPack)
+endif()
